@@ -1,0 +1,59 @@
+html{ 
+vh:100%;
+vw:100%;
+background: black;
+ text-align: center;
+  margin: auto;
+  width: 50%;
+  font-family: Helvetica;
+  
+  background-color: gray;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+p{
+	color: white;
+	font-size: 20px;
+}
+
+input{
+	text-align: center;
+	display: inline-block;
+	size: 100px;
+}
+
+li{ 
+	text-align: center;
+	font-size: 30px; 
+	display: inline-block;
+	color: white;
+ }
+
+button{ 
+	text-align: center;
+	background-color: gray; 
+  border: 2px solid white;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+
+
+ }
+
+ button:hover {
+  background-color: #555555;
+  color: white;
+}
+
